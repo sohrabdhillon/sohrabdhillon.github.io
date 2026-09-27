@@ -2,234 +2,116 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sohrab Dhillon | Engineering Design Portfolio</title>
-  <meta name="description" content="Engineering portfolio of Sohrab Dhillon, a University of Toronto Materials Engineering student working in structures, simulation, materials selection, and manufacturing.">
-  <meta name="theme-color" content="#0b2433">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230b2433'/%3E%3Cpath d='M10 46h44M10 18h44M19 10v44M45 10v44' stroke='%234fd1c5' stroke-width='2' opacity='.55'/%3E%3Ctext x='32' y='39' text-anchor='middle' font-family='Arial' font-weight='700' font-size='24' fill='white'%3ESD%3C/text%3E%3C/svg%3E">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sohrab Dhillon — Engineering Portfolio</title>
+  <meta name="description" content="Engineering portfolio of Sohrab Dhillon: structures, simulation, materials, and manufacturing.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
-<header class="site-header">
-  <a class="brand" href="#top" aria-label="Sohrab Dhillon home"><span class="brand-mark">SD</span><span>Engineering Portfolio</span></a>
-  <nav aria-label="Main navigation">
-    <a href="#projects">Projects</a>
-    <a href="#experience">Experience</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-  </nav>
-  <a class="resume-link" href="assets/Resume_Sep26.pdf" target="_blank" rel="noopener">Resume ↗</a>
-</header>
+  <header class="nav wrap">
+    <a class="monogram" href="#top" aria-label="Home">SD</a>
+    <nav aria-label="Primary">
+      <a href="#projects">Projects</a>
+      <a href="assets/Resume_Sep26.pdf" target="_blank" rel="noopener">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<main id="main">
-  <section class="hero shell" id="top" aria-labelledby="hero-title">
-    <div class="hero-copy">
-      <p class="kicker">Materials Engineering · University of Toronto</p>
-      <h1 id="hero-title">Engineering Design<br><span>Portfolio</span></h1>
-      <p class="hero-lede">Structural design, finite-element analysis, materials selection, and fabrication planning across aerospace, composites, and human-centred engineering systems.</p>
-      <div class="hero-actions">
-        <a class="primary-button" href="#projects">View engineering work ↓</a>
-        <a class="text-link" href="assets/Resume_Sep26.pdf" target="_blank" rel="noopener">Open resume ↗</a>
+  <main id="top">
+    <section class="intro wrap">
+      <p class="eyebrow">Engineering Portfolio</p>
+      <h1>Hey, I’m Sohrab Dhillon.</h1>
+      <p>I design and analyze physical systems, with a focus on lightweight structures, simulation, materials, and manufacturing.</p>
+      <div class="intro-links">
+        <a href="#projects">View projects ↓</a>
+        <a href="assets/Resume_Sep26.pdf" target="_blank" rel="noopener">Resume ↗</a>
       </div>
-    </div>
-    <aside class="spec-card" aria-label="Engineering profile summary">
-      <div class="spec-card-head"><span>PROFILE / ENG-01</span><span>2026</span></div>
-      <dl>
-        <div><dt>Program</dt><dd>BASc Materials Engineering + PEY Co-op</dd></div>
-        <div><dt>Graduation</dt><dd>2029 expected</dd></div>
-        <div><dt>Focus</dt><dd>Structures · Simulation · Manufacturing</dd></div>
-        <div><dt>Tools</dt><dd>SolidWorks · ANSYS · AutoCAD</dd></div>
-        <div><dt>Manufacturing</dt><dd>Laser cutting · FDM · SLA · SLS</dd></div>
-      </dl>
-      <div class="spec-footer">Toronto, Ontario</div>
-    </aside>
-  </section>
+    </section>
 
-  <section class="projects shell" id="projects">
-    <div class="section-title">
-      <p class="kicker">01 / Selected engineering work</p>
-      <h2>Design decisions tied to measurable outcomes.</h2>
-      <p>Each case study is organized by action, design context, and result.</p>
-    </div>
-
-    <article class="case-study" id="aerospace">
-      <div class="case-index" aria-hidden="true">01</div>
-      <div class="case-main">
-        <div class="case-heading">
-          <div>
-            <div class="project-id"><img src="assets/utat-logo.webp" alt="University of Toronto Aerospace Team logo" width="600" height="600"><span>UTAT UAS · Structures · Sep 2025–Present</span></div>
-            <h3>Lightweight aircraft structures</h3>
-          </div>
-          <p class="case-role">Structures Member</p>
-        </div>
-
-        <div class="adr-grid">
-          <div class="adr"><span>A / Action</span><p>Designed circular and oval lightening cutouts, integrated an SLA-printed nose cone and locally reinforced base plates, and converted SolidWorks geometry into laser-cut AutoCAD files.</p></div>
-          <div class="adr"><span>D / Description</span><p>Balsa airframe structures use low mass where loads are modest and added support where shear and concentrated loads are higher. Plastic film provides the finished aerodynamic skin.</p></div>
-          <div class="adr"><span>R / Result</span><p>Produced fabrication-ready geometry with reduced non-critical material, reinforced critical load paths, and verified scale/layer/export settings for repeatable laser cutting and assembly.</p></div>
-        </div>
-
-        <figure class="full-image">
-          <a href="assets/utat-assembly.webp" target="_blank" rel="noopener"><img src="assets/utat-assembly.webp" alt="Balsa UAS airframe assembly with plastic film covering" width="2200" height="1650" loading="lazy"></a>
-          <figcaption>UAS airframe assembly · balsa structure with plastic film covering. Image shown uncropped.</figcaption>
-        </figure>
-        <div class="tech-strip"><span>SolidWorks</span><span>AutoCAD</span><span>Balsa structures</span><span>SLA integration</span><span>Laser-cut DFM</span></div>
+    <section class="wrap featured" id="projects">
+      <h2>Featured Work</h2>
+      <div class="featured-grid">
+        <a class="feature-card" href="#beam">
+          <img src="assets/beam-coupled-render.webp" alt="Coupled corrugated composite beam CAD model">
+          <div><span>Composite Beam Design</span><small>Simulation · Composites · Manufacturing</small></div>
+        </a>
+        <a class="feature-card" href="#aerospace">
+          <img src="assets/utat-assembly.webp" alt="University of Toronto Aerospace Team airframe assembly">
+          <div><span>Aircraft Structures</span><small>Structures · CAD · Fabrication</small></div>
+        </a>
       </div>
-    </article>
+    </section>
 
-    <article class="case-study" id="beam">
-      <div class="case-index" aria-hidden="true">02</div>
-      <div class="case-main">
-        <div class="case-heading">
-          <div>
-            <p class="project-id text-only">MSE294 / Engineering Manufacturing &amp; Design</p>
-            <h3>Composite beam design, FEA, and modular coupling</h3>
-          </div>
-          <p class="case-role">Simulation Lead · Dec 2025–Apr 2026</p>
-        </div>
-
-        <div class="adr-grid">
-          <div class="adr"><span>A / Action</span><p>Evaluated four composite concepts using CAD, bending calculations, second-moment-of-area analysis, and FEA; then designed 1&nbsp;mm slot-and-rod ONYX interfaces and refined laser-cut geometry for assembly.</p></div>
-          <div class="adr"><span>D / Description</span><p>The work progressed from an individual MDF–XPS–CFRP sandwich beam to a four-beam system using corrugated balsa–CFRP members. The team design targeted a 0.5&nbsp;kg midpoint load over a 280&nbsp;mm span for 30&nbsp;s, a ≤$7 material budget, and ≤9&nbsp;g of connectors.</p></div>
-          <div class="adr"><span>R / Result</span><p>The paired long-axis layout reduced simulated centre displacement by about 70% and centre stress by about 16% versus the initial orientation. ONYX connectors added 1.12&nbsp;g and the projected material cost was $3.74. Physical testing later exposed lateral stability rather than visible material fracture as the dominant failure mode.</p></div>
-        </div>
-
-        <div class="metric-grid" aria-label="Beam project metrics">
-          <div><strong>15.15 g</strong><span>individual sandwich beam mass</span></div>
-          <div><strong>$1.91</strong><span>individual beam material cost</span></div>
-          <div><strong>0.04401 → 0.01299 mm</strong><span>simulated centre displacement</span></div>
-          <div><strong>358.9 → 300.8 kPa</strong><span>simulated centre stress</span></div>
-        </div>
-
-        <figure class="full-image">
-          <a href="assets/beam-coupled-render.webp" target="_blank" rel="noopener"><img src="assets/beam-coupled-render.webp" alt="SolidWorks rendering of the coupled corrugated balsa CFRP beam system" width="1900" height="1136" loading="lazy"></a>
-          <figcaption>Coupled corrugated balsa–CFRP concept · repeated beam geometry with modular connection. Image shown uncropped.</figcaption>
-        </figure>
-
-        <div class="image-gallery two-up">
-          <figure><a href="assets/beam-displacement-solidworks.webp" target="_blank" rel="noopener"><img src="assets/beam-displacement-solidworks.webp" alt="SolidWorks static displacement plot for the corrugated beam" width="2200" height="1239" loading="lazy"></a><figcaption>SolidWorks displacement study · deformation display is scaled by the solver.</figcaption></figure>
-          <figure><a href="assets/team-deflection.webp" target="_blank" rel="noopener"><img src="assets/team-deflection.webp" alt="ANSYS total deformation result for the team beam" width="2172" height="927" loading="lazy"></a><figcaption>ANSYS team-beam deformation study · full result legend retained.</figcaption></figure>
-        </div>
-
-        <figure class="full-image evidence-image">
-          <a href="assets/beam-poster.webp" target="_blank" rel="noopener"><img src="assets/beam-poster.webp" alt="Poster board documenting team beam testing, observed instability, analysis, and redesign recommendations" width="2200" height="1650" loading="lazy"></a>
-          <figcaption>Post-test design review: the cylindrical load tipped with no visible crushing or fracture, separating structural strength from system-level stability.</figcaption>
-        </figure>
-
-        <div class="engineering-note"><strong>Engineering takeaway.</strong> Simulation supported the material and bending design, but the physical test showed that load geometry, overhang, connector consistency, and lateral stability governed the system response. Redesign recommendations included reducing overhang and adding central support/bracing.</div>
-        <div class="tech-strip"><span>SolidWorks FEA</span><span>ANSYS</span><span>Composite design</span><span>ONYX</span><span>Laser cutting</span><span>DFA / DFM</span></div>
-      </div>
-    </article>
-
-    <article class="case-study" id="power">
-      <div class="case-index" aria-hidden="true">03</div>
-      <div class="case-main">
-        <div class="case-heading">
-          <div>
-            <p class="project-id text-only">Engineering Strategies &amp; Practice II · Jan–Apr 2025</p>
-            <h3>Classroom power distribution system</h3>
-          </div>
-          <p class="case-role">Concept development &amp; requirements</p>
-        </div>
-
-        <div class="adr-grid">
-          <div class="adr"><span>A / Action</span><p>Translated client concerns into measurable engineering requirements, generated 70+ concepts, and narrowed them through feasibility screening, multivoting, graphical analysis, and a Pugh comparison before developing CAD layouts.</p></div>
-          <div class="adr"><span>D / Description</span><p>The selected concept integrates four desk power stations with 16 additional receptacles, USB access, pop-up protection, and routed floor/wall cabling to reduce congestion around the classroom’s existing outlets.</p></div>
-          <div class="adr"><span>R / Result</span><p>The Integrated Desk Power Station became the proposed conceptual design. A verification plan defined checks for coverage, charging capacity, usability, and maintenance; the project remained conceptual and no installed-system performance is claimed.</p></div>
-        </div>
-
-        <div class="metric-grid compact">
-          <div><strong>$250 CAD</strong><span>maximum design budget</span></div>
-          <div><strong>16</strong><span>additional receptacles across four stations</span></div>
-          <div><strong>&lt;24 A</strong><span>outlet-load constraint</span></div>
-          <div><strong>&lt;3 m</strong><span>target spacing/coverage criterion</span></div>
-        </div>
-
-        <figure class="full-image">
-          <a href="assets/classroom-power-layout.webp" target="_blank" rel="noopener"><img src="assets/classroom-power-layout.webp" alt="Classroom CAD rendering showing the locations of integrated desk power stations" width="2000" height="904" loading="lazy"></a>
-          <figcaption>Integrated desk power-station layout in the STEAM classroom. Image shown uncropped.</figcaption>
-        </figure>
-        <div class="tech-strip"><span>Requirements engineering</span><span>Concept screening</span><span>Pugh analysis</span><span>CAD layout</span><span>Verification planning</span></div>
-      </div>
-    </article>
-
-    <article class="case-study" id="food">
-      <div class="case-index" aria-hidden="true">04</div>
-      <div class="case-main">
-        <div class="case-heading">
-          <div>
-            <p class="project-id text-only">Engineering Strategies &amp; Practice I · Sep–Dec 2024</p>
-            <h3>Sustainable campus food-service system</h3>
-          </div>
-          <p class="case-role">System concept &amp; stakeholder analysis</p>
-        </div>
-
-        <div class="adr-grid">
-          <div class="adr"><span>A / Action</span><p>Converted site research and stakeholder needs into accessibility, sustainability, food-safety, and service requirements; screened 52 proposals with the team and compared finalists using a Pugh chart and impact–effort analysis.</p></div>
-          <div class="adr"><span>D / Description</span><p>The proposed system uses semi-autonomous delivery robots to collect food from nearby businesses and deliver it to an accessible Bahen Courtyard hub, with renewable-energy charging, allergen information, and a defined service boundary.</p></div>
-          <div class="adr"><span>R / Result</span><p>The robot-and-hub concept was selected over vending-machine and food-court alternatives. The specification incorporated a 60% waste-diversion target and accessibility clearances for mobility-device users; the project was conceptual rather than a deployed service.</p></div>
-        </div>
-
-        <figure class="full-image portrait-art">
-          <a href="assets/food-robot-sketch.webp" target="_blank" rel="noopener"><img src="assets/food-robot-sketch.webp" alt="Hand-drawn engineering concept sketch of the campus food delivery robot" width="1188" height="1305" loading="lazy"></a>
-          <figcaption>Team concept sketch: food-storage body, vision sensors, lighting, communication antenna, and accessible pickup concept. Image shown uncropped.</figcaption>
-        </figure>
-        <div class="tech-strip"><span>Stakeholder analysis</span><span>Accessibility</span><span>Sustainability</span><span>Service environment</span><span>Concept selection</span></div>
-      </div>
-    </article>
-  </section>
-
-  <section class="experience-band" id="experience">
-    <div class="shell">
-      <div class="section-title light">
-        <p class="kicker">02 / Experience</p>
-        <h2>Engineering work and operational responsibility.</h2>
+    <section class="wrap projects">
+      <div class="section-head">
+        <h2>Selected Projects</h2>
+        <p>Engineering work spanning structural analysis, mechanical design, fabrication, testing, and system design.</p>
       </div>
 
-      <div class="experience-list">
-        <article class="experience-item">
-          <div class="experience-head"><div><span class="date">Sep 2025–Present</span><h3>Structures Member</h3><p>University of Toronto Aerospace Team · UAS</p></div><span class="experience-number">E01</span></div>
-          <div class="experience-adr"><p><strong>Action</strong> Airframe CAD, lightening geometry, reinforcement, and fabrication preparation.</p><p><strong>Description</strong> Lightweight balsa aircraft structures integrated with printed and film-covered components.</p><p><strong>Result</strong> Fabrication-ready drawings and reinforced interfaces at critical load paths.</p></div>
-        </article>
+      <article class="project" id="beam">
+        <div class="project-copy">
+          <p class="eyebrow">Engineering Manufacturing &amp; Design</p>
+          <h3>Lightweight Composite Beam</h3>
+          <p>Designed and evaluated composite beam concepts using SolidWorks and FEA, then developed a modular ONYX slot-and-rod coupling system. The corrugated balsa–CFRP concept balanced stiffness, mass, manufacturability, and cost.</p>
+          <div class="tags"><span>SolidWorks</span><span>FEA</span><span>ANSYS</span><span>Composites</span></div>
+        </div>
+        <div class="project-media">
+          <img src="assets/beam-displacement-solidworks.webp" alt="SolidWorks beam displacement simulation">
+          <img src="assets/team-deflection.webp" alt="ANSYS deformation result for beam assembly">
+        </div>
+      </article>
 
-        <article class="experience-item">
-          <div class="experience-head"><div><span class="date">Dec 2025–Apr 2026</span><h3>Simulation Lead</h3><p>Engineering Manufacturing &amp; Design II · University of Toronto</p></div><span class="experience-number">E02</span></div>
-          <div class="experience-adr"><p><strong>Action</strong> Led concept comparison, FEA, bending analysis, and coupling-interface refinement.</p><p><strong>Description</strong> Four-beam composite structure with ONYX slot-and-rod connectors and laser-cut balsa/CFRP members.</p><p><strong>Result</strong> Selected the stiffer corrugated concept, reduced predicted displacement with a revised orientation, and standardized tool-free interfaces.</p></div>
-        </article>
+      <article class="project reverse" id="aerospace">
+        <div class="project-copy">
+          <p class="eyebrow">University of Toronto Aerospace Team</p>
+          <h3>UAS Airframe Structures</h3>
+          <p>Designed lightweight balsa airframe geometry, including lightening cutouts and reinforced interfaces, then prepared SolidWorks geometry for laser cutting in AutoCAD.</p>
+          <div class="tags"><span>SolidWorks</span><span>AutoCAD</span><span>Structures</span><span>DFM</span></div>
+        </div>
+        <div class="project-media single">
+          <img src="assets/utat-assembly.webp" alt="Balsa UAS airframe assembly">
+        </div>
+      </article>
 
-        <article class="experience-item secondary-experience">
-          <div class="experience-head"><div><span class="date">Jun–Sep 2026</span><h3>Lifeguard &amp; Swim Instructor</h3><p>City of Niagara Falls</p></div><span class="experience-number">E03</span></div>
-          <div class="experience-adr"><p><strong>Action</strong> Supervised high-traffic pool areas, taught group lessons, and maintained rescue readiness.</p><p><strong>Description</strong> Safety-critical public-facing role requiring first-aid/CPR response, equipment checks, and clear instruction.</p><p><strong>Result</strong> Resolved minor incidents quickly while maintaining safe operations and individualized skill progression.</p></div>
-        </article>
+      <article class="project" id="testing">
+        <div class="project-copy">
+          <p class="eyebrow">Design Validation</p>
+          <h3>Beam Testing &amp; Iteration</h3>
+          <p>Compared simulation predictions with physical testing and identified lateral stability and load geometry as system-level limitations, informing redesign recommendations around overhang, bracing, and support.</p>
+          <div class="tags"><span>Testing</span><span>Failure Analysis</span><span>Design Iteration</span></div>
+        </div>
+        <div class="project-media single">
+          <img src="assets/beam-poster.webp" alt="Beam testing and design review poster">
+        </div>
+      </article>
+
+      <article class="project reverse" id="power">
+        <div class="project-copy">
+          <p class="eyebrow">Engineering Strategies &amp; Practice</p>
+          <h3>Classroom Power Distribution</h3>
+          <p>Developed a conceptual classroom power-distribution system by translating client needs into measurable requirements, screening more than 70 concepts, and using structured selection methods to converge on an integrated desk-power solution.</p>
+          <div class="tags"><span>Requirements</span><span>Concept Selection</span><span>CAD</span></div>
+        </div>
+        <div class="project-media single">
+          <img src="assets/classroom-power-layout.webp" alt="Classroom power distribution CAD layout">
+        </div>
+      </article>
+    </section>
+
+    <section class="contact wrap" id="contact">
+      <h2>Contact</h2>
+      <p>For engineering opportunities, project work, or collaboration.</p>
+      <div>
+        <a href="mailto:sohrab.dhillon@mail.utoronto.ca">Email ↗</a>
+        <a href="https://www.linkedin.com/in/sohrab-dhillon/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a href="assets/Resume_Sep26.pdf" target="_blank" rel="noopener">Resume ↗</a>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <section class="skills shell" id="skills">
-    <div class="section-title">
-      <p class="kicker">03 / Technical profile</p>
-      <h2>Tools used across design, analysis, and fabrication.</h2>
-    </div>
-    <div class="skills-grid">
-      <div><span>CAD</span><p>SolidWorks · AutoCAD</p></div>
-      <div><span>Simulation</span><p>ANSYS FEA/CFD · SolidWorks FEA</p></div>
-      <div><span>Additive manufacturing</span><p>FDM · SLA · SLS · DfAM</p></div>
-      <div><span>Fabrication</span><p>Laser cutting · composite assembly · tolerance verification</p></div>
-      <div><span>Certifications</span><p>CSWA · CSW-AM · CSWP in progress</p></div>
-      <div><span>Academic direction</span><p>Advanced Manufacturing + Engineering Business minors intended</p></div>
-    </div>
-    <div class="university-lockup"><img src="assets/uoft-mse.webp" alt="University of Toronto Materials Science and Engineering" width="900" height="278" loading="lazy"></div>
-  </section>
-
-  <section class="contact" id="contact">
-    <div class="shell contact-grid">
-      <div><p class="kicker">04 / Contact</p><h2>Engineering opportunities and project work.</h2></div>
-      <div class="contact-links"><a href="mailto:sohrab.dhillon@mail.utoronto.ca">sohrab.dhillon@mail.utoronto.ca ↗</a><a href="https://www.linkedin.com/in/sohrab-dhillon/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="assets/Resume_Sep26.pdf" download>Resume ↓</a></div>
-    </div>
-  </section>
-</main>
-
-<footer class="shell"><span>© 2026 Sohrab Dhillon</span><span>Materials Engineering · University of Toronto</span><a href="#top">Back to top ↑</a></footer>
+  <footer class="wrap">
+    <span>© 2026 Sohrab Dhillon</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
 </body>
 </html>
