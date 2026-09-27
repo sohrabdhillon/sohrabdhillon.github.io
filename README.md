@@ -1,12 +1,16 @@
-# Sohrab Dhillon — Engineering Portfolio
+# Sohrab Dhillon — Engineering Design Portfolio
 
-Responsive static portfolio for GitHub Pages, updated from the supplied Sep. 26 resume and project media.
+Static portfolio site focused on engineering work in structures, simulation, materials selection, and manufacturing.
 
-## Included
-- UTAT UAS structures work and assembly photography.
-- Composite beam SolidWorks/ANSYS simulation imagery and project-poster photography.
-- Classroom power-distribution and sustainable campus food-service projects.
-- Current University of Toronto Materials Engineering background, skills, experience, and certifications.
-- A printable `resume.html` web resume generated from the supplied PDF content.
+## Files
+- `index.html` — portfolio content
+- `styles.css` — responsive engineering-style layout
+- `assets/` — project images, analysis figures, logos, and resume
 
-The main page is self-contained: project images and CSS are embedded directly in `index.html`, so no build system or external asset hosting is required.
+## Deploy on GitHub Pages
+1. Upload the repository contents to the default branch.
+2. In GitHub: **Settings → Pages**.
+3. Set **Deploy from a branch**, then choose the default branch and `/ (root)`.
+4. Save. The site is fully static and requires no build step.
+
+All portfolio images use proportional sizing (`height: auto` / `object-fit: contain`) so figures are displayed in full rather than cropped.
